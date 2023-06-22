@@ -5,3 +5,21 @@ sudo dnf install mariadb105-server -y
 sudo pip install mysql-connector-python 
 sudo pip install gunicorn
 sudo pip install boto3
+
+
+
+
+
+
+
+
+
+
+database commands
+======================
+mysql -h rds endpoint -u username -p
+#use database name below here
+use application_db;
+show databases;
+show tables;
+select * from users;
